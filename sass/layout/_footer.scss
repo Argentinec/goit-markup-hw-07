@@ -1,0 +1,174 @@
+.footer-section {
+    background: #2F303A;
+    display: flex;
+    flex-direction: row;
+}
+.footer-section .container {
+    display: flex;
+    flex-direction: row;
+}
+
+.contact-footer {
+    margin-right: 70px;
+}
+
+.footer-section .logo-footer {
+    display: flex;
+    padding-top: 60px;
+    margin-bottom: 20px;
+}
+
+.contact-list-item:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.contact-list {
+    display: inline-block;
+    padding-bottom: 60px
+}
+
+.contact-list-link-address {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.714;
+    letter-spacing: 0.03em;
+    color: #FFFFFF
+}
+
+.contact-list-link {
+font-weight: 400;
+font-size: 14px;
+line-height: 1.714;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
+}
+
+.logo-footer {
+    color: #FFFFFF;
+}
+
+.social-footer {
+    width: 206px;
+    height: 80px;
+    padding-top: 72px;
+    padding-bottom: 100px;
+}
+
+.social-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.143;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    color: #FFFFFF
+    
+
+}
+.social-footer-list {
+    display: flex;
+}
+
+.social-footer-list-item:not(:last-child) {
+    margin-right: 10px;
+}
+
+.social-footer-list-link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background :rgba(255, 255, 255, 0.1);
+    transition: all 250ms var(--timing-function);
+}
+
+.social-footer-list-svg {
+    width: 20px;
+    height: 20px;
+    fill: #FFFFFF;
+}
+
+.social-footer-list-link:hover,
+.social-footer-list-link:focus {
+    background-color: var(--accent-color);
+}
+
+.mailing {
+    padding-top: 72px;
+    padding-bottom: 94px;
+    margin-left: auto;
+
+}
+
+.mailing-title {
+    display: block;
+    font-family: var(--main-font);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.143;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-bottom: 20px;
+}
+
+.form-mailing {
+    display: flex;
+    align-content: center;
+    
+}
+
+.mail-field{
+    margin-right: 12px;
+}
+
+.mailing-input {
+    width: 358px;
+    height: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-sizing: border-box;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    padding: 16px 15px;
+    font-family: var(--main-font);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    background-color: transparent;
+    
+}
+
+.mailing-button {
+    display: flex;
+    align-items: center;
+    padding-left: 29px;
+    width: 200px;
+    height: 50px;
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    font-family: var(--main-font);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.875px;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.button-send {
+    position: relative;
+    
+}
+
+.send {
+    position: absolute;
+    top: 13px;
+    right: 28px;
+    width: 24px;
+    height: 24px;
+}
