@@ -4,4 +4,16 @@
     line-height: 1.167;
     letter-spacing: 0.03em;
     color: #212121;
+    
+    .about-section-section & {
+        display: flex;
+        padding-bottom: 50px;
+        justify-content: center;
+    }
+    
+    .client.& {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 50px;
+    }
 }

@@ -1,29 +1,28 @@
 .client {
     padding-top: 94px;
     padding-bottom: 94px;
-}
-
-.client .title {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 50px;
-}
-
-.client-list {
-    display: flex;
-    justify-content: space-between;
-}
-
-.client-item-link{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 170px;
-    height: 90px;
-    border: 1px solid #AFB1B8;
-    box-sizing: border-box;
-    border-radius: 4px;
-    fill: #AFB1B8;
+    
+    &-list {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    &-item-link{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 170px;
+        height: 90px;
+        border: 1px solid #AFB1B8;
+        box-sizing: border-box;
+        border-radius: 4px;
+        fill: #AFB1B8;
+        
+        &:hover,
+        &:focus {
+             border: 1px solid $accent-color;
+        }
+    }
 }
 
 .logo-a {
@@ -56,16 +55,13 @@
     height: 46px;
 }
 
-.client-item-link:hover,
-.client-item-link:focus {
-    border: 1px solid $accent-color;
-}
-
-.client-item-link .client-item-svg{
-    transition: all 250ms $timing-function;
-}
-
-.client-item-link:hover .client-item-svg,
-.client-item-link:focus .client-item-svg{
-    fill: $accent-color;
+.client-item-svg {
+    .client-item-link & {
+        transition: all 250ms $timing-function;
+    }
+    
+    .client-item-link:hover &,
+    .client-item-link:focus & {
+        fill: $accent-color;
+    }
 }
