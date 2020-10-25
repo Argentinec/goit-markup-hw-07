@@ -81,7 +81,7 @@ color: rgba(255, 255, 255, 0.6);
     height: 44px;
     border-radius: 50%;
     background :rgba(255, 255, 255, 0.1);
-    transition: all 250ms var(--timing-function);
+    transition: all 250ms $timing-function;
 }
 
 .social-footer-list-svg {
@@ -92,7 +92,7 @@ color: rgba(255, 255, 255, 0.6);
 
 .social-footer-list-link:hover,
 .social-footer-list-link:focus {
-    background-color: var(--accent-color);
+    background-color: $accent-color;
 }
 
 .mailing {
@@ -104,7 +104,7 @@ color: rgba(255, 255, 255, 0.6);
 
 .mailing-title {
     display: block;
-    font-family: var(--main-font);
+    font-family: $main-font;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.143;
@@ -132,7 +132,7 @@ color: rgba(255, 255, 255, 0.6);
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     border-radius: 4px;
     padding: 16px 15px;
-    font-family: var(--main-font);
+    font-family: $main-font;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.25;
@@ -151,7 +151,7 @@ color: rgba(255, 255, 255, 0.6);
     background: #2196F3;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
-    font-family: var(--main-font);
+    font-family: $main-font;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.875px;
