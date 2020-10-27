@@ -11,9 +11,16 @@
         justify-content: center;
     }
     
-    .client.& {
+    .client & {
         display: flex;
         justify-content: center;
         margin-bottom: 50px;
+    }
+    
+    .team-section & {
+       display: flex;
+       padding-top: 94px;
+       padding-bottom: 50px;
+       justify-content: center;
     }
 }
